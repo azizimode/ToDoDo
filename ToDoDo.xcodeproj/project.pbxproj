@@ -21,7 +21,7 @@
 		1133235C2E7AA3A00009C171 /* Exceptions for "ToDoDo" folder in "ToDoDo" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
-				Info.plist,
+				App/Info.plist,
 			);
 			target = 113323492E7AA39E0009C171 /* ToDoDo */;
 		};
