@@ -6,6 +6,13 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		113323692E7AD2520009C171 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 113323682E7AD2520009C171 /* FirebaseAnalytics */; };
+		1133236B2E7AD2520009C171 /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = 1133236A2E7AD2520009C171 /* FirebaseCore */; };
+		1133236D2E7AD2520009C171 /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = 1133236C2E7AD2520009C171 /* FirebaseCrashlytics */; };
+		1133236F2E7AD2520009C171 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = 1133236E2E7AD2520009C171 /* FirebaseMessaging */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		1133234A2E7AA39E0009C171 /* ToDoDo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoDo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -36,6 +43,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1133236F2E7AD2520009C171 /* FirebaseMessaging in Frameworks */,
+				1133236D2E7AD2520009C171 /* FirebaseCrashlytics in Frameworks */,
+				1133236B2E7AD2520009C171 /* FirebaseCore in Frameworks */,
+				113323692E7AD2520009C171 /* FirebaseAnalytics in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +89,10 @@
 			);
 			name = ToDoDo;
 			packageProductDependencies = (
+				113323682E7AD2520009C171 /* FirebaseAnalytics */,
+				1133236A2E7AD2520009C171 /* FirebaseCore */,
+				1133236C2E7AD2520009C171 /* FirebaseCrashlytics */,
+				1133236E2E7AD2520009C171 /* FirebaseMessaging */,
 			);
 			productName = ToDoDo;
 			productReference = 1133234A2E7AA39E0009C171 /* ToDoDo.app */;
@@ -347,6 +362,29 @@
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		113323682E7AD2520009C171 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 113323652E7ACBCA0009C171 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		1133236A2E7AD2520009C171 /* FirebaseCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 113323652E7ACBCA0009C171 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCore;
+		};
+		1133236C2E7AD2520009C171 /* FirebaseCrashlytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 113323652E7ACBCA0009C171 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCrashlytics;
+		};
+		1133236E2E7AD2520009C171 /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 113323652E7ACBCA0009C171 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 113323422E7AA39E0009C171 /* Project object */;
 }
