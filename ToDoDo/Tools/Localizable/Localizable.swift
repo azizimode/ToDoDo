@@ -8,7 +8,7 @@
 import Foundation
 
 class Localizable{
-    class func getLocalizedString(type: LocaleEnum,key: String) -> String {
+    class func getLocalizedString(type: LanguageEnum,key: String) -> String {
         return NSLocalizedString(key, tableName: type.tableName , comment: "")
     }
 }

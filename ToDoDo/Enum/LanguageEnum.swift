@@ -1,6 +1,7 @@
 import Foundation
 
-enum LocaleEnum {
+// Language mode
+enum LanguageEnum {
     case fa
     case en
     
