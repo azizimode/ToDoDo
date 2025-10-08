@@ -1,7 +1,7 @@
 import Foundation
 
 // Language mode
-enum LanguageEnum {
+enum LanguageEnum: String {
     case fa
     case en
     
